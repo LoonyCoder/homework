@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lagou-transfer:war exploded">
+    <output-path>/Volumes/月を眺める/lagou/Java_L2_2020.03.24/02_讲义及源码/第一阶段/spring/代码/lagou-transfer/target/lagou-transfer-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lagou-transfer" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="/Volumes/月を眺める/lagou/Java_L2_2020.03.24/02_讲义及源码/第一阶段/spring/代码/lagou-transfer/target/lagou-transfer-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="lagou-transfer/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+<configuration>
+    <!--配置数据源信息-->
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///lagou_mybatis"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+    </dataSource>
+
+    <!--存放mapper文件映射-->
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../task2/task2" />
+    <file type="web" url="file:///Volumes/月を眺める/lagou/Java_L2_2020.03.24/02_讲义及源码/第一阶段/spring/代码/lagou-transfer" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/IPersistence/pom.xml" />
+        <option value="$PROJECT_DIR$/IPersistence_Test/pom.xml" />
+        <option value="$PROJECT_DIR$/../task2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,25 @@
+<mapper namespace="com.lagou.dao.IUserDao">
+
+    <!--查询所有用户-->
+    <select id="selectAll" resultType="com.lagou.pojo.User">
+        select * from user
+    </select>
+
+
+    <!--根据条件查询用户-->
+    <select id="selectByCondition" resultType="com.lagou.pojo.User" paramterType="com.lagou.pojo.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+
+    <update id="insert" resultType="java.lang.Object" paramterType="com.lagou.pojo.User">
+        insert into user values(#{id},#{username})
+    </update>
+
+    <update id="update" resultType="java.lang.Object" paramterType="com.lagou.pojo.User">
+        update user set id = #{id},username = #{username} where id = #{id}
+    </update>
+
+    <delete id="delete" resultType="java.lang.Object" paramterType="com.lagou.pojo.User">
+        delete from user where id = #{id}
+    </delete>
+</mapper>

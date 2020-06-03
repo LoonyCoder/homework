@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lagou-transfer:war">
+    <output-path>/Volumes/月を眺める/lagou/Java_L2_2020.03.24/02_讲义及源码/第一阶段/spring/代码/lagou-transfer/target</output-path>
+    <root id="archive" name="lagou-transfer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="lagou-transfer:war exploded" />
+    </root>
+  </artifact>
+</component>
