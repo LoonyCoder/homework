@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+">
+    <!--springmvc注解驱动，自动注册合适的handlerMapping和handlerAdapter-->
+    <mvc:annotation-driven />
+
+    <context:component-scan base-package="com.lagou.controller"/>
+
+    <!--配置springmvc的视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--mvc 配置静态资源处理-->
+    <mvc:resources location="classpath:/"  mapping="/resources/**"/>
+    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
+
+    <mvc:interceptors>
+        <!--拦截所有handler-->
+        <!--<bean class="com.lagou.edu.interceptor.MyIntercepter01"/>-->
+
+        <mvc:interceptor>
+            <!--配置当前拦截器的url拦截规则，**代表当前目录下及其子目录下的所有url-->
+            <mvc:mapping path="/**"/>
+            <!--exclude-mapping可以在mapping的基础上排除一些url拦截-->
+            <!--<mvc:exclude-mapping path="/demo/**"/>-->
+            <bean class="com.lagou.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+
+    </mvc:interceptors>
+
+</beans>
