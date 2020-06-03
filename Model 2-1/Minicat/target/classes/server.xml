@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Server>
+    <service>
+        <connector port="8080" />
+        <Engine>
+            <Host name="localhost" appBase="/Users/gmx/webapps" />
+        </Engine>
+    </service>
+</Server>
