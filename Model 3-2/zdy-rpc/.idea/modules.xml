@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zdy-rpc-common/zdy-rpc-common.iml" filepath="$PROJECT_DIR$/zdy-rpc-common/zdy-rpc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdy-rpc-consumer/zdy-rpc-consumer.iml" filepath="$PROJECT_DIR$/zdy-rpc-consumer/zdy-rpc-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdy-rpc-provider/zdy-rpc-provider.iml" filepath="$PROJECT_DIR$/zdy-rpc-provider/zdy-rpc-provider.iml" />
+    </modules>
+  </component>
+</project>
