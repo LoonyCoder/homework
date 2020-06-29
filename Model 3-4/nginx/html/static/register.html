@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SpringCloud作业</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <!-- 引入 Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+   <div class="jumbotron text-center" style="margin-bottom:0">
+      <h3>注册页面</h3>
+      <p>Spring Cloud 作业</p>
+   </div>
+<div id="login_form" style="margin-left:550px;margin-top:50px;">
+ 
+          <div class="form-group">
+             <label for="user" style="display:inline;">邮箱：   </label>
+               <input type="text" class="form-control" name="email" id="email" style="display:inline;width:200px;"autocomplete="off" />
+               <div ><p id="msg"></p></div>
+          </div>
+           <div class="form-group">
+               <label for="password" style="display:inline;">密码：   </label>
+              <input type="text" class="form-control" id="password"name="password" style="display:inline;width:200px;"autocomplete="off" />
+             
+           </div>
+         <div class="form-group">
+            <label for="password_com" style="display:inline;">确认密码：</label>
+           <input type="text" id="password_com" class="form-control" name="password_com" style="display:inline;width:200px;"autocomplete="off" />
+           <div ><p id="pwd_msg"></p></div>
+        </div>
+        <div class="form-group">
+         <label for="code" style="display:inline;">验证码：</label>
+        <input type="text" class="form-control" name="code" id="code" style="display:inline;width:200px;"autocomplete="off" />
+         </div>
+         <button type="submit" class="btn btn-info"  id="getCode" >获取验证码 <font  id="second"></font></button>
+         <button type="submit" class="btn btn-primary" id="register" >注册 </button>
+         
+
+</div>
+      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+      <script src="js/jquery.js"></script>
+      <!-- 包括所有已编译的插件 -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <script>
+          $("#email").blur(function(){
+             $.ajax({
+               type: "GET",
+               url: "/api/user/isRegistered/"+$("#email").val(),
+               async:true,
+               success:function(data){
+                  if(data == true){
+                     $('#msg').html( '<font color="red">该邮箱已注册</font>');
+                  }else{
+                     $('#msg').html('');
+                  }                 
+               }
+             });
+          });
+
+
+          $("#password_com").blur(function(){
+             if( $("#password_com").val() != $("#password").val()){
+               $('#pwd_msg').html( '<font color="red">密码不一致</font>');
+             }else{
+               $('#pwd_msg').html( '')
+             }
+          });
+
+         
+
+         
+         $("#getCode").click(function(){
+
+            if ( $('#second').html()!= '' ){
+               return;
+            }
+
+            if($('#msg').html() != ''){
+               alert("邮箱不符合要求，请重新填写")
+            }else{
+
+               $.ajax({
+               type: "GET",
+               url: "/api/code/create/"+$("#email").val(),
+               async:true,
+               success:function(data){
+                  if(data == true){
+                    alert("验证码已发往邮箱, 请尽快注册, 10分钟内邮箱")
+                  }else{
+                     alert("验证码发送失败, 请稍后重试")
+                  }                 
+                  }
+              });
+
+             
+               var sec = 60
+               var myvar = setInterval(function(){
+                  $('#second').html('<font color="red">'+ sec+'(s)</font>');
+                  sec--
+                  if( sec <= 0){
+                     clearInterval(myvar);
+                     $('#second').html('');
+                  }
+                  },1000);  
+             
+            }             
+          });
+
+          $("#register").click(function(){
+            var mail_msg =  $('#msg').html()
+            if(mail_msg != ''){
+               alert("邮箱不符合要求，请重新填写")
+            }
+
+            if($('#pwd_msg').html() != ''){
+               alert("密码不一致，请重新填写")
+            }
+
+ 
+            $.ajax({
+               type: "GET",            
+               url: "/api/code/validate/"+$("#email").val()+"/"+$("#code").val(),
+               async:true,
+               success:function(data){
+                  if(data == 1){
+                    alert("验证码错误")
+                  }else if (data == 2){
+                     alert("验证码超时")
+                  }else if (data == 0){
+                     window.location.href="/api/user/register/"+$("#email").val()+"/"+$("#password").val()+"/"+$("#code").val()
+                  }                 
+               }
+            });            
+          });
+           
+
+      </script>
+   </body>
+</html>
