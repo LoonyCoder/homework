@@ -1,0 +1,39 @@
+server:
+  port: 9006
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://eureka8762.com:8762/eureka, http://eureka8761.com:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
+spring:
+  application:
+    name: lagou-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/loonycoder/lagou-config-repo.git
+          username: loonycoder@163.com #配置git⽤户名
+          password: GMX1016++.
+          search-paths:
+            - lagou-config-repo
+      label: master
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

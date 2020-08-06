@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: code-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        prefix: lagou-common-config
+        server-addr: 127.0.0.1:8848
+        refresh: true
+        file-extension: yaml
+    subscribed-services: mail-server
+  main:
+    allow-bean-definition-overriding: true
+
+dubbo:
+  scan:
+    base-packages: com.lagou.service.impl
+  protocol:
+    name: dubbo
+    port: 20799
+    host: 10.1.2.208
+  registry:
+    address: spring-cloud://localhost

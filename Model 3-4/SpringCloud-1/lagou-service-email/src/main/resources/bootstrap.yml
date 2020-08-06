@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+      name: mail-server
+  cloud:
+    config:
+      name: common-config #配置⽂件名称
+      profile: dev #后缀名称
+      label: master #分⽀名称
+      uri: http://localhost:9006
+

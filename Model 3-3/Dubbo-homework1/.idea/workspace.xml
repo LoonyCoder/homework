@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="991719df-3872-4017-b1ff-57156da40e6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/java/com/lagou/edu/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/java/com/lagou/edu/dao/ResumeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/java/com/lagou/edu/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/java/com/lagou/edu/pojo/Resume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/java/com/lagou/edu/service/ResumeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/java/com/lagou/edu/service/impl/ResumeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/WEB-INF/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/WEB-INF/jsp/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/WEB-INF/jsp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/WEB-INF/jsp/loginFail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Springboot-SSS/src/main/webapp/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../marathon-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sss/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sss/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zk-configcenter/src/main/java/com/lagou/uitls/ZkClientHandler.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-spi-filter/target/" />
+    <ignored path="$PROJECT_DIR$/service-api/target/" />
+    <ignored path="$PROJECT_DIR$/service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/provider2/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="948736921">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="186" />
+          <entry key="properties" value="33" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="186" />
+          <entry key="Properties" value="33" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Filter" value="3" />
+          <entry key="class" value="4" />
+          <entry key="java" value="52" />
+          <entry key="properties" value="13" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="52" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="13" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-spi-filter/src/main/java/com/lagou/filter/TransportIPFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider2/src/main/java/provider2/lagou/service/impl/ServiceTwoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/dubbo-provider2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/bean/ComsumerComponet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-api/src/main/java/com/lagou/service/HelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-api/src/main/java/com/lagou/service/ServiceTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>192.168.1.110</find>
+      <find>ip</find>
+      <find>attachment</find>
+      <find>set attachment</find>
+      <find>justin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../spring-framework-5.1.x" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-spi-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain.java" />
+        <option value="$PROJECT_DIR$/dubbo-spi-filter/src/main/java/com/lagou/filter/TransportIPFilter.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/java/provider2/lagou/service/impl/ServiceTwoImpl.java" />
+        <option value="$PROJECT_DIR$/provider2/src/main/resources/dubbo-provider2.properties" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-spi-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dubbo-homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dubbo-homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592234913742" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-provider" />
+      <recent name="$PROJECT_DIR$/service-consumer" />
+      <recent name="$PROJECT_DIR$/service-api" />
+      <recent name="$PROJECT_DIR$/provider2" />
+      <recent name="$PROJECT_DIR$/dubbo-spi-filter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AnnotationConsumerMain">
+    <configuration name="DubboPureMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lagou.DubboPureMain" />
+      <module name="service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTwoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provider2.lagou.ServiceTwoMain" />
+      <module name="provider2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="provider2.lagou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationConsumerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.AnnotationConsumerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DubboPureMain" />
+      <item itemvalue="Application.ServiceTwoMain" />
+      <item itemvalue="Spring Boot.AnnotationConsumerMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AnnotationConsumerMain" />
+        <item itemvalue="Application.ServiceTwoMain" />
+        <item itemvalue="Application.DubboPureMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="991719df-3872-4017-b1ff-57156da40e6e" name="Default Changelist" comment="" />
+      <created>1592188483065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592188483065</updated>
+      <workItem from="1592188486540" duration="545000" />
+      <workItem from="1592217646978" duration="2972000" />
+      <workItem from="1592234304301" duration="11000" />
+      <workItem from="1592234318923" duration="622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4150000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4638472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-spi-filter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.5/dubbo-2.7.5.jar!/org/apache/dubbo/rpc/RpcContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.5/dubbo-2.7.5.jar!/org/apache/dubbo/rpc/Invocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/provider2/lagou/ServiceTwoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/DubboPureMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/java/com/lagou/service/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/AnnotationConsumerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/bean/ComsumerComponet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/dubbo-provider.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/config/ConsumerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-spi-filter/src/main/java/com/lagou/filter/TransportIPFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-spi-filter/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-api/src/main/java/com/lagou/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-api/src/main/java/com/lagou/service/ServiceTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/java/provider2/lagou/service/impl/ServiceTwoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider2/src/main/resources/dubbo-provider2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/lagou/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>service-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,59 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: lagou-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        prefix: lagou-common-config
+        server-addr: 127.0.0.1:8848
+        refresh: true
+        file-extension: yaml
+        ext-config[0]:
+          data-id: lagou-cloud-gateway.yaml
+          group: DEFAULT_GROUP
+          refresh: true #开启扩展dataId的动态刷新
+
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080 # sentinel dashboard/console 地址
+        port: 8719
+    gateway:
+      routes:
+        - id: user-service-router
+          uri: lb://user-server
+          #uri: http://localhost:8084
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - StripPrefix=1
+
+        - id: code-service-router
+          uri: lb://code-server
+          predicates:
+            - Path=/api/code/**
+          filters:
+            - StripPrefix=1
+
+        - id: email-service-router
+          uri: lb://mail-server
+          predicates:
+            - Path=/api/email/**
+          filters:
+            - StripPrefix=1
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20798
+    host: 10.1.2.208
+  registry:
+  # 挂载到 Spring Cloud 注册中⼼
+    address: spring-cloud://localhost
+  cloud:
+  # 订阅服务提供⽅的应⽤列表，订阅多个服务提供者使⽤ "," 连接
+    subscribed-services: user-server

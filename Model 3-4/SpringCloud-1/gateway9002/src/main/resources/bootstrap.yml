@@ -1,0 +1,57 @@
+
+server:
+  port: 9002
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://eureka8762.com:8762/eureka, http://eureka8761.com:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
+
+spring:
+  application:
+    name: lagou-cloud-gateway
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      name: lagou-cloud-gateway #配置⽂件名称
+      profile: dev #后缀名称
+      label: master #分⽀名称
+      uri: http://localhost:9006 #ConfigServer配置中⼼地址
+    gateway:
+      routes:
+        - id: user-service-router
+          uri: lb://USER-SERVER
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - StripPrefix=1
+
+        - id: code-service-router
+          uri: lb://CODE-SERVER
+          predicates:
+            - Path=/api/code/**
+          filters:
+            - StripPrefix=1
+
+        - id: email-service-router
+          uri: lb://MAIL-SERVER
+          predicates:
+            - Path=/api/email/**
+          filters:
+            - StripPrefix=1
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
