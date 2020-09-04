@@ -1,0 +1,6 @@
+put 'user_relation', '1111', 'friends:2222', '2222'
+put 'user_relation', '1111', 'friends:3333', '3333'
+put 'user_relation', '2222', 'friends:1111', '1111'
+put 'user_relation', '2222', 'friends:4444', '4444'
+put 'user_relation', '3333', 'friends:3333', '1111'
+put 'user_relation', '4444', 'friends:2222', '2222'
